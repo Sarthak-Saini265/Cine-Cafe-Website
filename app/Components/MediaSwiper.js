@@ -45,10 +45,10 @@ export default function MediaSwiper() {
 
   return (
     <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
-      spaceBetween={20}
+      modules={[Pagination, Autoplay]}
+      spaceBetween={0}
       slidesPerView={1}
-      navigation
+      // navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 7000, disableOnInteraction: true }}
       loop={true}
@@ -58,15 +58,17 @@ export default function MediaSwiper() {
       {trailers.map((trailer, index) => (
         <SwiperSlide key={index} className={styles.swiperSlide}>
           <div className={styles.slideShow}>
-            <iframe
-              src={trailer.src}
-              className={styles.slide}
-              title={`Trailer ${index}`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              frameBorder="0"
-              style={{ pointerEvents: "none" }}
-            />
+            <div className={styles.iframeWrapper}>
+              <iframe
+                src={trailer.src}
+                className={styles.slide}
+                title={`Trailer ${index}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                frameBorder="0"
+                style={{ pointerEvents: "none" }}
+              />
+            </div>
             <div className={styles.slideCap}>
               <h2>{trailer.caption}</h2>
               <p>{trailer.date}</p>

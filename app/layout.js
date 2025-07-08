@@ -9,7 +9,7 @@ const poppins = localFont({
 });
 
 export const metadata = {
-  title: "Sparkers Academy",
+  title: "Darsh Cine Cafe",
   description: "Sparkles Academy the place where your child learns and grows",
   icons: {
     icon: "/favicon.ico",

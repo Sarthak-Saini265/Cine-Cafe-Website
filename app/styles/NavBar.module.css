@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     height: max-content;
-    width: max-content;
-    position: fixed;
+    width: 100%;
+    /* width: max-content; */
+    position: relative;
+    /* position: fixed; */
     z-index: 50000;
 }
 .nav{
@@ -13,7 +15,8 @@
     height: 5rem;
     width: 100%;
     box-shadow: var(--soft-shadow);
-    position: fixed;
+    position: relative;
+    /* position: fixed; */
     top: 0px;
     left: 0px;
     background-color: white;

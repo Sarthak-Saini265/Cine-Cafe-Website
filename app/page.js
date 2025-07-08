@@ -4,8 +4,13 @@ import MediaSwiper from "./Components/MediaSwiper";
 
 export default function Home() {
   return (
-    <section className={styles.trailers}>
-      <MediaSwiper />
-    </section>
+    <div className="main">
+      <section className={styles.trailers}>
+        <MediaSwiper />
+      </section>
+      <section className={styles.explore}>
+        <h1 className={styles.exploreText}>EXPLORE</h1>
+      </section>
+    </div>
   );
 }
