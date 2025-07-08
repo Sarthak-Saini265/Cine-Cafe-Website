@@ -1,0 +1,14 @@
+.trailers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60vh;
+  padding: 2rem;
+  margin-top: 4rem;
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  border-radius: var(--hard-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}

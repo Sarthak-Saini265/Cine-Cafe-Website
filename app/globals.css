@@ -1,15 +1,3 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 html,
 body {
   max-width: 100vw;
@@ -17,11 +5,33 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+:root {
+  --font-color: #F55E4A;
+  --soft-shadow: 0 4px 8px rgba(0, 0, 0, 0.22);
+  --desc-color: rgb(85, 85, 85);
+  --soft-radius: 0.25rem;
+  --hard-radius: 0.5rem;
+  --round-radius: 2rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--font-color) !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--desc-color) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--font-color) !important;
 }
 
 * {
@@ -35,8 +45,17 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+.pinkSpan {
+  color: var(--font-color);
+}
+
+.content {
+  padding: 0 1rem;
+  margin-top: 5rem; /* Adjusted to account for fixed navbar */
+}
+
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }

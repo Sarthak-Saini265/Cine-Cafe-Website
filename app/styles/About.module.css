@@ -1,0 +1,247 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+    margin-top: 21rem;
+}
+
+@media (max-width: 1300px) {
+    .tagline_from{
+        padding-left: 25rem !important;
+    }
+    .all_about_divs{
+        width: 68% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .all_about_divs{
+        width: 68% !important;
+    }
+    .inner_img_div{
+        width: 121rem !important;
+    }
+    .inner_img_div2{
+        width: 121rem !important;
+    }
+}
+
+@media (max-width: 770px) {
+    .initial{
+        line-height: 2.8rem !important;
+        font-size: 2rem;
+    }
+    .tagline{
+        line-height: 2.8rem !important;
+        font-size: 2rem;
+        margin-left: 0.9rem !important;
+    }
+    .tagline_from{
+        padding-left: 0 !important;
+    }
+    .img{
+        margin-top: 1.5rem;
+    }
+    .all_about_divs{
+        width: 82% !important;
+    }
+    .about_div{
+        flex-wrap: wrap;
+    }
+    .academy p{
+        width: 75% !important;
+    }
+    .inner_img_div{
+        margin-top: 0.7rem !important;
+        width: 17rem !important;
+    }
+    .inner_img_div2{
+        margin-top: 0.7rem !important;
+    }
+    .academy_img_div{
+        width: 85% !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .academy h1{
+        font-size: 2.2rem !important;
+    }
+}
+
+.img_quote{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -8rem;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    color: #484848;
+    font-size: 1.6rem;
+}
+
+.initial{
+    display: flex;
+    /* flex-wrap: wrap; */
+    line-height: 3.2rem;
+}
+
+.tagline{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    color: var(--font-color);
+    line-height: 5rem;
+    margin-left: 1.25rem;
+}
+
+
+.tagline_from{
+    text-align: right;
+    /* margin-right: -3rem; */
+    line-height: 2rem;
+    padding-left: 28.5rem;
+}
+
+
+
+.quotes {
+    /* display: block; */
+    color: #484848;
+}
+
+.img{
+    height: 22rem;
+    width: 26rem;
+    background-color: #E9E9E9;
+}
+
+
+.academy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+    margin-top: 17rem;
+    margin-bottom: 5rem;
+}
+
+.academy_head{
+    display: flex;
+}
+
+.academy h1{
+    text-align: center;
+    font-size: 2.8rem;
+    letter-spacing: 0.15rem;
+}
+
+.pinkHead{
+    margin-left: 1.1rem;
+    color: var(--font-color);
+}
+
+.academy p{
+    width: 50%;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.academy_img_div{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 7px;
+    margin-top: 1.5rem; 
+}
+
+.academy_img_div img{
+    width: auto;
+    height: 16rem;
+}
+
+.all_about_divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    width: 50%;
+}
+
+.about_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: max-content;
+    padding: 1.2rem;
+    box-shadow: var(--soft-shadow);
+    border-radius: 7px;
+    margin-bottom: 2.2rem;
+}
+
+.head_w_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .head_w_text h2{
+    font-size: 1.5rem;
+} */
+
+.about_div p{
+    width: 88%;
+}
+
+.inner_img_div{
+    display: flex;
+    justify-content: center;
+    width: 75rem;
+    height: 19rem;
+    overflow: hidden;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.inner_img{
+    width: 17rem;
+    height: auto;
+    border-radius: 4px;
+}
+
+.inner_img_div2{
+    display: flex;
+    justify-content: center;
+    width: 79rem;
+    height: 19rem;
+    overflow: hidden;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.inner_img2{
+    width: auto;
+    height: 19rem;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+

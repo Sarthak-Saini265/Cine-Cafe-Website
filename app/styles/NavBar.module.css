@@ -1,0 +1,135 @@
+.allNav{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    position: fixed;
+    z-index: 50000;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    height: 5rem;
+    width: 100%;
+    box-shadow: var(--soft-shadow);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.navLinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:  70%;
+    height: 100%;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin: 0rem 1.5rem;
+    height: 2rem;
+    transition: all .05s ease-in-out;
+}
+.link:hover{
+    border-bottom: 0.2rem solid var(--font-color);
+    font-weight: 500;
+}
+.enroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--font-color);
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 0.25rem;
+    margin-right: 1.8rem;
+    text-decoration: none;
+}
+.enroll:hover{
+    border: none;
+}
+.mobileMenu{
+    display: none;
+    height: 40%;
+    width: auto;
+}
+.menu{
+    display: none;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    z-index: 4;
+    top: 5rem;
+    position: fixed;
+    transition: all .05s ease-in-out;
+}
+.menuList{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: max-content;
+    background-color: var(--font-color);
+    z-index: 4;
+    position: fixed;
+    
+}
+.menuLink{
+    margin: 0.8rem 0.8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all .05s ease-in-out;
+}
+.menuLink:hover{
+    border-bottom: 0.2rem solid white;
+    /* color: #F55E4A; */
+    font-weight: 500;
+}
+.menuEnroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--font-color);
+    padding: 0.3rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+@media (max-width: 940px) {
+    .navLinks{
+        width: 80%;
+    }
+    .profile{
+        width: 20%;
+    }
+}
+@media (max-width:820px){
+    .link{
+        display: none;
+    }
+    .navLinks{
+        width: 70%;
+    }
+    .profile{
+        width: 30%;
+    }
+    .mobileMenu {
+        display: block;
+    }
+}
+@media (min-width:820px){
+    .menu{
+        display: none!important;
+    }
+}
