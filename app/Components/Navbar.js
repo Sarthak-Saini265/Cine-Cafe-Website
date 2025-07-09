@@ -1,4 +1,4 @@
-"use client"; // <-- Add this at the top to mark as Client Component
+"use client";
 
 import React, { useState } from "react";
 import styles from "../styles/NavBar.module.css";

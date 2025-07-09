@@ -10,5 +10,17 @@
     "src": "https://www.youtube.com/embed/Po3jStA673E?si=ai-uee22AKSyztI_",
     "caption": "Leo Official Trailer",
     "date": "19 October 2023"
+  },
+  {
+    "type": "youtube",
+    "src": "https://www.youtube.com/embed/dK1W-AViQ-M?si=gDurXWrqb6kWVcjf",
+    "caption": "WAR 2 Official Teaser",
+    "date": "14 August 2025"
+  },
+  {
+    "type": "youtube",
+    "src": "https://www.youtube.com/embed/fI_Cg4r4FpU?si=Anr9xNL1QChivPTM",
+    "caption": "Malik Official Teaser",
+    "date": "11 July 2025"
   }
 ]
