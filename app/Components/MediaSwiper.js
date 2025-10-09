@@ -72,6 +72,7 @@ export default function MediaSwiper() {
             <div className={styles.slideCap}>
               <h2>{trailer.caption}</h2>
               <p>{trailer.date}</p>
+              <p>{trailer.description}</p>
             </div>
           </div>
         </SwiperSlide>
