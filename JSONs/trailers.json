@@ -3,24 +3,28 @@
     "type": "youtube",
     "src": "https://www.youtube.com/embed/COv52Qyctws?si=uI6lfeBLiIWq6L_F",
     "caption": "Jawan Official Trailer",
-    "date": "7 September 2023"
+    "date": "7 September 2023",
+    "description": "Jawan is a 2023 Indian Hindi-language action thriller film co-written and directed by Atlee."
   },
   {
     "type": "youtube",
     "src": "https://www.youtube.com/embed/Po3jStA673E?si=ai-uee22AKSyztI_",
     "caption": "Leo Official Trailer",
-    "date": "19 October 2023"
+    "date": "19 October 2023",
+    "description": "Leo is a 2023 Indian Tamil-language action film directed by Lokesh Kanagaraj."
   },
   {
     "type": "youtube",
     "src": "https://www.youtube.com/embed/dK1W-AViQ-M?si=gDurXWrqb6kWVcjf",
     "caption": "WAR 2 Official Teaser",
-    "date": "14 August 2025"
+    "date": "14 August 2025",
+    "description": "War 2 is an upcoming Indian Hindi-language action-thriller film directed by Ayan Mukerji."
   },
   {
     "type": "youtube",
     "src": "https://www.youtube.com/embed/fI_Cg4r4FpU?si=Anr9xNL1QChivPTM",
     "caption": "Malik Official Teaser",
-    "date": "11 July 2025"
+    "date": "11 July 2025",
+    "description": "Malik is a 2021 Indian Malayalam-language political thriller film directed by Mahesh Narayanan."
   }
 ]
